@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+#footer{
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color:white;
+    box-shadow: 0 -4px 20px rgb(0 0 0 / 10%);
+    align-items: center;
+    justify-content: center;
+
+}
+#tip_button{
+    width: 100%;
+    height: 50px;
+    background-color:#60d25e ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    letter-spacing: .02em;
+    justify-content: space-between; 
+    margin-right: 25px; 
+    margin-left: 25px;
+}
+#payments_modal_content{
+    width: 100%;
+    bottom: 0%;
+    background-color: white;
+    position: fixed;
+    transition: all 1s;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -2px 8px rgb(0 0 0 / 24%);
+}
+.modal_amount img{
+    border: none;
+    background-color: white;
+    color: #B2B2B2;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 25px;
+    right: 25px;
+}
+.modal_amount{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+    margin-bottom: 8px;
+    height: 17px;
+}
+.modal_amount_{
+    padding: 20px 15px 16px;   
+}
+.modal_amount_rate{
+    font-size: 14px;
+    line-height: 16px;
+    color: #999;
+    height: 35px;
+}
+.tip_button{
+    width: 100%;
+    background-color:2c2e2f;
+    border: 1px solid #2c2e2f;
+    border-radius: 8px;
+    height: 48px;
+    margin-bottom: 8px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side_by_side  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.tip_button_idram {
+ 
+    flex: 0 0 calc(50% - 4px);
+    margin-bottom: 0;
+    background: #f6931d;
+    border-color: #f6931d;
+}
+.tip_button_yoomoney {
+    flex: 0 0 calc(50% - 4px);
+    margin-bottom: 0;
+    background: #8b3ffd;
+    border-color: #8b3ffd;
+}
+.tip_button_yoomoney .imgg{
+    margin-left: 5px;
+}
+.tip_button_card{
+    background: #2c2e2f;
+    border-color: #2c2e2f;
+    color: #fff;
+}
+.tip_button_card p{
+    margin: 0px 10px;
+}
+.tip_button_card a p{
+    text-decoration: none;
+}
+.tip_button_rus_card p{
+    margin: 0px 10px;
+}
+.terms{
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: .02em;
+    color: #b4b4b4;
+    font-size: 12px;
+}
+.terms a{
+    text-decoration: none;
+    color: black;
+}

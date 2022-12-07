@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior:auto;
+    font-family: Montserrat
+}
+#Content{
+    height: auto;
+    padding: 10px 16px 116px;
+}
+
+#leave_tip{
+    font-size: 12px;
+    text-align: left;
+    color: #1d2027;
+    padding-bottom: 5px; 
+}
+#money #input{
+    width: 100%;
+    height: 55px;
+    border-radius: 14px;
+    border: solid 1px #d9d9d9;
+    background-color: #f5f6f8;
+    color: black;
+    box-sizing: border-box;
+    padding: 8.5px 8.5px 8.5px 27px;
+    font-size: 30px;
+    letter-spacing: .02em;
+    outline: none;
+}
+#money #input:focus{
+    border:1px solid  #60d25e;
+}
+#money span{
+    position: absolute;
+    top: 234px;
+    left: 29px;
+    font-size: 16px;
+}
+#gumari_chap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin-top: 16px;
+}
+#button{
+    width: 90px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px;
+    background-color: #f5f6f8;
+    color: #abaeb3;
+    cursor: pointer;
+    
+    
+}
+#money #span{
+    position: absolute;
+    top: 230px;
+    right: 30px;
+    font-size: 10px;
+    text-align: right;
+    color: #abaeb3;
+    letter-spacing: .05em;
+}
+ #bottom-text{
+    letter-spacing: .02em;
+    font-size: 11px;
+    line-height: 16px;
+    color: #737373;
+}
+#transaction{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    font-size: 12px;
+    margin-top: 19px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f6f8;
+    border: 0.8px solid #d9d9d9;
+    color: #0f0f0f;
+    border-radius: 15px;
+    background: linear-gradient(91.73deg,rgba(202,241,201,.16) -12.07%,rgba(214,238,241,.39) 50.43%,rgba(233,236,241,.46) 107.93%);
+}
+#transaction p{
+    margin: 1px 15px;
+}
+#switch{
+    width: 51px!important;
+    height: 24px!important;
+    color: #737373;
+    margin-right: 10px;
+}
+#bottom_text_fee{
+    height: 13px;
+    font-size: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    color: #737373;
+    
+}
+#smiles{
+    display: flex;
+    justify-content: center;
+    margin-top:-10px;
+    margin-bottom: 11px;   
+}
+#smiles div{
+    padding: 9px;
+    border-radius: 50%;
+    opacity: .5;
+    background: #f5f6f8;
+    margin-right: 9px;
+    display: flex;
+}
+#review-types {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+#review-types button{
+    width: 34%;
+    height: 90px;
+    background-color: #f5f6f8;
+    padding: 14px;
+    margin: 16px 3px;
+    border-radius: 15px;
+    border: solid 1px #abaeb3;
+    opacity: 0.6;
+    font-size: 30px;
+    cursor: pointer;
+}
+#review-types button p{
+    font-size: 13px;
+}
+#comment input{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    border-radius: 16px;
+    background-color: #f5f6f8;
+    color: black;
+    box-sizing: border-box;
+    padding: 8.5px 8.5px 8.5px 27px;
+    letter-spacing: .02em;
+    padding-left: 12px;
+    outline: none;
+    border: none;
+}
+#comment input:focus{
+    border:1px solid  #60d25e;
+}
+#cards{
+    width: 96%;
+    height: 20px;
+    margin: 15px 0px;
+}
+#ogidram{
+    width: 55px;
+    margin: 0px 5px;
+}
+#yoomoney{
+    width: 70px;
+    
+}
+#arcavisa{
+    width: 100px;
+   margin: 2px 7px;
+}
+#terms{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .02em;
+    color: #b4b4b4;
+    text-align: left;
+    margin: -5px 0px;
+}
+#terms a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:320px){
+    #ogidram{
+        width: 45px;
+        margin: 0px 5px;
+    }
+    #yoomoney{
+        width: 55px;
+        
+    }
+    #arcavisa{
+        width: 90px;
+       margin: 2px 7px;
+    }
+    #smiles div{
+        padding: 5px;
+        border-radius: 50%;
+    }
+    #review-types button p{
+        font-size:9px ;
+    }
+}
